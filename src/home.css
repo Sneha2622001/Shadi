@@ -1,0 +1,218 @@
+.Navbar{
+    padding: 0;
+    margin: 0;
+   
+   
+}
+.navbar{
+   
+    border:solid 5px rgba(78, 175, 210, 0.103);
+}
+
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 87px;
+}
+
+.background_img {
+    background-image: url('/src/Images/Background12.jpg');
+     height: 100%;
+    width: 99vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+.nav-item .nav-link:hover{
+    color: orange;
+}
+.login{
+    background-image: linear-gradient(to right, orange , rgb(238, 24, 59));
+    padding: 0.4rem 2.6rem 0.4rem 2.6rem;
+    color: white;
+}
+
+.mobile{
+ 
+    outline: none;
+    border-width: 1px;
+    border-radius: 6px;
+    /* border: 1px solid rgb(232, 218, 218); */
+    padding-right: 210px;
+    border: solid 2px rgb(179, 175, 175);
+    
+
+
+    
+}
+.registerform{
+    background-color: rgba(0, 0, 0, 0.473);
+    height: 74vh;
+    width: 38vw;
+    padding: 1rem;
+    border-radius: 1rem;
+    border:solid 3px rgba(182, 44, 44, 0.71);
+    position: absolute;
+    left: 46rem;
+    top: 11rem;
+}
+
+.h3{
+    color: aliceblue;
+}
+
+.register{
+    background-image: linear-gradient(to right, orange , rgb(238, 24, 59));
+   
+}
+.form-select, .form-control{
+   border: solid 2px rgb(179, 175, 175);
+}
+
+.banner2{
+    background-image: linear-gradient(to bottom, rgb(223, 124, 12) , rgb(220, 39, 70));
+}
+.main{
+   display: flex; 
+   
+   
+}
+.main1{
+    height: 475px;
+    width: 50%;
+    text-align:left;
+    padding-left: 30px;
+    color: white;
+   
+}
+.main2{
+    height: 475px;
+    width: 50%;
+    margin-left: 55px;
+   
+}
+.main2nd{
+    display: flex; 
+    justify-content: space-around;
+}
+
+.img1{
+    height: 170px;
+   border-radius:50%;
+   margin-left: 40px;
+   margin-top: 27px;
+}
+
+.para{
+    font-size: 22px;
+}
+.main2{
+    color: white;
+    text-align:left;
+}
+.banner_text{
+    font-size: 20px;
+}
+.trustdiv{
+    font-size: 24px;
+}
+.know_more{
+    padding: 13px 13px 13px 13px;
+    background-color: rgba(16, 16, 20, 0.674);
+    color: white;
+    position: relative;
+    bottom: 55px;
+    text-align: center;
+    
+    
+}
+.banner3{
+    background-color: rgba(0, 0, 0, 0.639);
+}
+
+
+
+
+.part1{
+ 
+    height: 570px;
+    width: 100%;
+    text-align:left;
+    margin-left: 35px;
+    color: white;
+
+ 
+}
+/* .part2{
+
+    height: 570px;
+    width: 50%;
+    text-align:left;
+    padding-left: 30px;
+    color: white;
+} */
+
+.btn_part1{
+    background-image: linear-gradient(to right, rgba(255, 166, 0, 0.934) , rgba(238, 24, 60, 0.888));
+    padding: 10px 20px 10px 20px;
+    border: 0;
+    border-radius: 7px;
+    color: rgba(255, 255, 255, 0.838);
+    font-size: 17px;
+    margin-bottom: 9px;
+/*     
+    visibility: visible;
+    animation-duration: 1.5s;
+    animation-name: bounceInRight; */
+
+}
+
+.btn_animation{
+
+    /* visibility: visible;
+    animation-duration: 1.5s;
+    animation-name: bounceInRight; */
+   
+    position: relative;
+    animation-name: bounceInRight;
+    animation-duration: 2s;
+    /* margin-left: 100%; */
+    visibility: visible;
+
+}
+
+@keyframes bounceInRight{
+    /* 0%  {right:0px; }
+    25% {right:100%;} */
+    /* 100% {left: 70px;} */
+    0%   { right: 0px; }
+    25%  { left: 950px;}
+    /* 50%  { left: 200px; }
+    75%  { left: 0px; } */
+    100% { left: 0px; }
+}
+
+.turn{
+    background-color: white;
+    display: flex;
+}
+
+
+.part1heading{
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.part_para{
+    margin-top: 20px;
+}
+/* .turn1, .turn2{
+    height: 590px;
+    width: 50%;
+    text-align:left;
+    padding-left: 30px;
+    color: rgb(188, 24, 24);
+} */
