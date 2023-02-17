@@ -50,14 +50,17 @@
 }
 .registerform{
     background-color: rgba(0, 0, 0, 0.473);
-    height: 74vh;
+    /* height: 70vh; */
     width: 38vw;
     padding: 1rem;
     border-radius: 1rem;
     border:solid 3px rgba(182, 44, 44, 0.71);
     position: absolute;
     left: 46rem;
-    top: 11rem;
+    top: 10rem;
+}
+.formheading{
+    font-size: 27.5px;
 }
 
 .h3{
@@ -138,7 +141,7 @@
 
 .part1{
  
-    height: 570px;
+    height: 550px;
     width: 100%;
     text-align:left;
     margin-left: 35px;
@@ -178,7 +181,7 @@
    
     position: relative;
     animation-name: bounceInRight;
-    animation-duration: 2s;
+    animation-duration: 3s;
     /* margin-left: 100%; */
     visibility: visible;
 
@@ -196,23 +199,160 @@
 }
 
 .turn{
-    background-color: white;
+    background-color: rgb(218, 210, 210);
     display: flex;
 }
 
 
 .part1heading{
-    margin-top: 35px;
-    margin-bottom: 25px;
+    padding: 23px 0 10px 0;
 }
+/* .tick{
+    
+} */
 
 .part_para{
     margin-top: 20px;
 }
-/* .turn1, .turn2{
-    height: 590px;
+
+.imgstore{
+    text-align: left;
+    position: relative;
+    bottom: 50px;
+    margin-left: 30px;
+    /* justify-content: 50px; */
+}
+
+.appstore{
+    margin-left: 20px;
+}
+
+.turn1, .turn2{
+    height: 650px;
     width: 50%;
     text-align:left;
     padding-left: 30px;
-    color: rgb(188, 24, 24);
-} */
+    display: flex;
+}
+
+
+
+.B4img1{
+    height: 280px;
+    width: 280px;
+    border-top-left-radius: 15px;
+    margin: 43px 4px 4px 0;
+   
+}
+.B4img2{
+    height: 280px;
+    width: 280px;
+    margin-right: 4px;
+    border-bottom-left-radius: 15px;
+    
+   
+}
+.B4img3{
+    height: 280px;
+    width: 280px;
+    margin: 43px 0px 4px 0px;
+    border-top-right-radius: 15px;
+   
+}
+.B4img4{
+    height: 280px;
+    width: 280px;
+    border-bottom-right-radius: 15px;
+    
+   
+   
+}
+
+.B4row{
+    display: block;
+}
+
+.b4para{
+    margin-top: 43px;
+    margin-bottom: 22px;
+    justify-content: left;
+}
+#tick{
+    font-size: 17px;
+    
+}
+#icon{
+    color: rgb(21, 134, 162);
+    font-size: 19px;
+}
+
+.banner6{
+   
+    height: 550px;
+    width: 100%;
+    background-color: white;
+
+}
+.B6heading{
+    padding: 25px 0 25px 0;
+}
+.couple{
+    display: flex;
+}
+.couple1,.couple2,.couple3{
+    height: 380px;
+    width: 30%;
+    background-color: white;
+    margin-right: 10px;
+    margin-left: 25px;
+    box-shadow: 0px 1px 20px 4px #aaaaaa;
+    border-radius: 13px;
+    
+
+}
+
+.pic{
+    display: flex;
+    height: 179.46px;
+    width: 182.46;
+   
+}
+.pic1 {
+    margin-left: 54px;
+    margin-right: 8px;
+    margin-top: 30px;
+    box-shadow: 0px 1px 20px 4px #aaaaaa;
+    border-radius: 13px;
+    margin-bottom: 17px;
+}
+.pic2{
+    margin-top: 30px;
+    margin-bottom: 17px;
+    box-shadow: 0px 1px 20px 4px #aaaaaa;
+    border-radius: 13px;
+}
+.readmore{
+    color: orange;
+    text-decoration: none;
+}
+.B6para2{
+    /* text-align: center; */
+    padding-left: 65px;
+    padding-right: 45px;
+}
+
+.banner7{
+    height: 350px;
+    width: 100%;
+    background-color: white;
+}
+.b7head{
+    padding-bottom:20px ;
+}
+.b7img{
+    /* display: flex; */
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    /* margin: 30px; */
+}
