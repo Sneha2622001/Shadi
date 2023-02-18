@@ -1,14 +1,10 @@
 .Navbar{
     padding: 0;
     margin: 0;
-   
-   
 }
 .navbar{
-   
     border:solid 5px rgba(78, 175, 210, 0.103);
 }
-
 
 .carousel-inner {
     position: relative;
@@ -24,11 +20,13 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover; 
+    
 }
 
 .nav-item .nav-link:hover{
     color: orange;
 }
+
 .login{
     background-image: linear-gradient(to right, orange , rgb(238, 24, 59));
     padding: 0.4rem 2.6rem 0.4rem 2.6rem;
@@ -36,18 +34,14 @@
 }
 
 .mobile{
- 
     outline: none;
     border-width: 1px;
     border-radius: 6px;
     /* border: 1px solid rgb(232, 218, 218); */
     padding-right: 210px;
     border: solid 2px rgb(179, 175, 175);
-    
-
-
-    
 }
+
 .registerform{
     background-color: rgba(0, 0, 0, 0.473);
     /* height: 70vh; */
@@ -59,6 +53,7 @@
     left: 46rem;
     top: 10rem;
 }
+
 .formheading{
     font-size: 27.5px;
 }
@@ -71,6 +66,7 @@
     background-image: linear-gradient(to right, orange , rgb(238, 24, 59));
    
 }
+
 .form-select, .form-control{
    border: solid 2px rgb(179, 175, 175);
 }
@@ -78,11 +74,11 @@
 .banner2{
     background-image: linear-gradient(to bottom, rgb(223, 124, 12) , rgb(220, 39, 70));
 }
+
 .main{
-   display: flex; 
-   
-   
+   display: flex;  
 }
+
 .main1{
     height: 475px;
     width: 50%;
@@ -91,12 +87,14 @@
     color: white;
    
 }
+
 .main2{
     height: 475px;
     width: 50%;
     margin-left: 55px;
    
 }
+
 .main2nd{
     display: flex; 
     justify-content: space-around;
@@ -104,24 +102,28 @@
 
 .img1{
     height: 170px;
-   border-radius:50%;
-   margin-left: 40px;
-   margin-top: 27px;
+    border-radius:50%;
+    margin-left: 40px;
+    margin-top: 27px;
 }
 
 .para{
     font-size: 22px;
 }
+
 .main2{
     color: white;
     text-align:left;
 }
+
 .banner_text{
     font-size: 20px;
 }
+
 .trustdiv{
     font-size: 24px;
 }
+
 .know_more{
     padding: 13px 13px 13px 13px;
     background-color: rgba(16, 16, 20, 0.674);
@@ -129,26 +131,22 @@
     position: relative;
     bottom: 55px;
     text-align: center;
-    
-    
 }
+
 .banner3{
     background-color: rgba(0, 0, 0, 0.639);
+    padding: 2rem 5rem;
 }
-
-
-
 
 .part1{
  
-    height: 550px;
-    width: 100%;
+    height: 85vh;
+    /* width: 50%; */
     text-align:left;
-    margin-left: 35px;
-    color: white;
-
- 
+    /* margin-left: 35px; */
+    color: white; 
 }
+
 /* .part2{
 
     height: 570px;
@@ -218,9 +216,15 @@
 .imgstore{
     text-align: left;
     position: relative;
-    bottom: 50px;
-    margin-left: 30px;
+    top: 1rem;
+    /* margin-left: 30px; */
     /* justify-content: 50px; */
+}
+
+.banner3-carousel img {
+    border-radius: 1.5rem;
+    width: 15rem;
+    height: 30rem;
 }
 
 .appstore{
@@ -263,9 +267,6 @@
     height: 280px;
     width: 280px;
     border-bottom-right-radius: 15px;
-    
-   
-   
 }
 
 .B4row{
@@ -307,8 +308,6 @@
     margin-left: 25px;
     box-shadow: 0px 1px 20px 4px #aaaaaa;
     border-radius: 13px;
-    
-
 }
 
 .pic{

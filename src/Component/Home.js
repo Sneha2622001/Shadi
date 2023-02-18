@@ -34,40 +34,40 @@ export default function Home() {
       {/*1st Banner */}
       <div
         id="carouselExampleAutoplaying"
-        class="carousel slide"
+        className="carousel slide"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src={Homeimg1} class="d-block w-100" alt="..." />
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img src={Homeimg1} className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src={Homeimg2} class="d-block w-100" alt="..." />
+          <div className="carousel-item">
+            <img src={Homeimg2} className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src={Homeimg3} class="d-block w-100" alt="..." />
+          <div className="carousel-item">
+            <img src={Homeimg3} className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src={Homeimg4} class="d-block w-100" alt="..." />
+          <div className="carousel-item">
+            <img src={Homeimg4} className="d-block w-100" alt="..." />
           </div>
         </div>
         <button
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
       {/* End of 1st Banner */}
@@ -94,7 +94,7 @@ export default function Home() {
           <div className="row mb-3">
             <div className="col-md-12">
               {/* <div className="mb-3 div1"> */}
-              <label for="name" class="form-label"></label>
+              <label htmlFor="name" className="form-label"></label>
               <input
                 type="text"
                 className="form-control"
@@ -121,7 +121,7 @@ export default function Home() {
               <div className="col-md-9">
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   aria-label="Text input with dropdown button"
                 />
               </div>
@@ -130,7 +130,7 @@ export default function Home() {
 
           <div className="row mb-3 ">
             <div className="col-md-12">
-              <label for="email" className="form-label"></label>
+              <label htmlFor="email" className="form-label"></label>
               <input
                 type="email"
                 className="form-control"
@@ -227,15 +227,15 @@ export default function Home() {
       {/* 3rd banner start here  */}
 
       <div className="banner3">
-        <div className="part">
-          <div className="part1">
+        <div className="part row d-flex align-items-center">
+          <div className="part1 col-md-6">
             <h3 className="part1heading">
               <b>Meet your life partner with Kalyanamalai App!</b>
             </h3>
             <div className="btn_animation">
               <button className="btn_part1">
                 <b>Stylish, Simple and Unique !</b>
-              </button>{" "}
+              </button>
               <br />
               <button className="btn_part1">
                 <b>Be creative !</b>
@@ -267,19 +267,37 @@ export default function Home() {
               {" "}
               <CheckCircleOutlineIcon id="tick" /> Stylish ,Simple and Unique !
             </p>
+            <div className="imgstore">
+              <img src={playstore} alt="" />
+              <img className="appstore" src={appstore} alt="" />
+            </div>
           </div>
-
-          <div className="imgstore">
-            <img src={playstore} alt="" />
-            <img className="appstore" src={appstore} alt="" />
+          <div className="part2 col-md-6">
+            <div id="carousel" className="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div className="carousel-inner ">
+                <div className="carousel-item banner3-carousel active d-flex justify-content-center">
+                  <img src={Homeimg1} className="d-block" width={'300px'} height={'300px'} alt="..." />
+                </div>
+                <div className="carousel-item banner3-carousel d-flex justify-content-center">
+                  <img src={Homeimg2} className="d-block" width={'300px'} height={'300px'} alt="..." />
+                </div>
+                <div className="carousel-item banner3-carousel d-flex justify-content-center">
+                  <img src={Homeimg3} className="d-block"  width={'300px'} height={'300px'} alt="..."></img>
+                </div>
+              </div>
+              <button className="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className="visually-hidden">Previous</span>
+              </button>
+              <button className="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
-
-          {/* <div className="part2">
-                bye
-              </div> */}
         </div>
       </div>
-      {/* 3rd banner start here  */}
+      {/* 3rd banner end here  */}
 
       {/* 4th banner start here  */}
       <div className="banner4">
